@@ -25,6 +25,11 @@ body {
     font-size: 1.6rem;
     background-color: $Dark-Blue;
     padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 svg {
@@ -44,6 +49,8 @@ svg {
     align-items: center;
     gap: 3rem;
     position: relative;
+    width: min(100%, 54rem);
+    margin: auto;
 
     &__advice-number {
         color: $Neon-Green;
