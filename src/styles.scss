@@ -78,9 +78,10 @@ svg {
         bottom: -3rem;
         cursor: pointer;
 
-        &:hover {
+        &:hover, &:focus {
             background-color: lighten($color: $Neon-Green, $amount: 5%);
             box-shadow: 0 0 3rem transparentize($color: $Neon-Green, $amount: 0.5);
+            outline: none;
         }
     }
 }
