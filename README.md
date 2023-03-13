@@ -2,7 +2,7 @@
 
 This project is based on a [challenge from Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
-It consists of an app that fecths a random advice from [Advice Slip JSON API](https://api.adviceslip.com/) and updates the DOM with it whenever the button is clicked. 
+It consists of an app that fetches a random advice from [Advice Slip JSON API](https://api.adviceslip.com/) and updates the DOM with it whenever the button is clicked. 
 
 Its made with HTML, SCSS and Typescript.
 
